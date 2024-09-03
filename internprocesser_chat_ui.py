@@ -237,7 +237,11 @@ def main():
         stl_file = step_dir.joinpath("millingpart.stl")
         html_file = step_dir.joinpath("millingpart.html")
         create_3D_Viewer(stl_file, html_file)
-        st.title("复制问题，输入对话框")
+        st.markdown(
+      "<h2 style='font-size:24px; color:blue;'>复制问题，输入对话框</h2>", 
+      unsafe_allow_html=True
+        )
+        # st.title("复制问题，输入对话框")
         st.write("询问工艺")
         st.empty()
         q1 = '''
