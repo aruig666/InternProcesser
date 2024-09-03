@@ -42,7 +42,7 @@ pip install -e '.[deepspeed]'
 ```
 ### 微调训练
 本项目尝试了在internlm2-chat-7b和internlm2-chat-1_8b的基础上微调训练，未来也将在internlm2-chat-20b上微调，但为了更方便的部署和使用，在线体验使用的是internlm2-chat-1_8b。
-体验地址：
+体验地址：[xopenlab](https://openxlab.org.cn/apps/detail/agem/InternProcesser)
 ```
 xtuner train ./internlm2_chat_1_8b_qlora_alpaca_e3_copy.py
 
