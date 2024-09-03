@@ -28,7 +28,7 @@ def create_3D_Viewer(stl_file: pathlib.Path, html_file: pathlib.Path):
         model = file.read()
 
     ## Show in webpage
-    components.html(model, height=400)
+    components.html(model, height=300)
 
 
 def delect_history_files():
