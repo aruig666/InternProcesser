@@ -21,8 +21,7 @@
 在第二轮对话中，会提供零件的加工工时和体积，询问零件的报价。回答将包括详细的报价计算，涵盖机加工成本、材料费和利润等。
 
 ### 环境配置
-初学者可以参考书生浦语训练营：第5关
-[XTuner微调个人小助手认知](https://github.com/InternLM/Tutorial/tree/camp3/docs/L1/XTuner)
+初学者可以参考书生浦语训练营：XTuner微调个人小助手认知
 ```
 # 创建虚拟环境
 conda create -n xtuner python=3.10 -y
